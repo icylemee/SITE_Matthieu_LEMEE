@@ -1,0 +1,194 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>34Record</title>
+</head>
+
+
+<header id="div1">
+  <h1>34Record</h1>
+</header>
+
+
+<body>
+
+ <div class="border">component UI_2</div>
+
+  <div class="banner" style="background-image: url(assets/mix.jpg);">
+    <div class="container">
+      <h1>Mixez et <strong> masterisez vos</strong> pistes <strong>en un clic</strong> !</h1>
+       <p>34Record est une solution innovante en ligne réalisant les mix et/ou mastering de vos pistes vocales, d'intruments acoustiques et instruments logiciels. C'est une solution simple et 100% en ligne donnant un rendu studio à vos enregistrement. Tout le travail est réalisé par notre équipe d'ingénieurs du son professionnels. N'hésitez plus, Get the sound you want !</p>
+    </div>
+  </div>
+
+<div class="border">Ils nous font confiance</div>
+
+    <div class="body_caroussel">
+      <input type="radio" name="position" checked />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+    <section id="carousel">
+      <div class="item"><img src="assets/dinos.png" /></div>
+      <div class="item"><img src="assets/rock.png" /></div>
+      <div class="item"><img src="assets/sch.png" /></div>
+      <div class="item"><img src="assets/zola.png" /></div>
+      <div class="item"><img src="assets/plk.png" /></div>
+    <section>
+  </div>
+
+<div class="border">Comment ça marche ?</div>
+
+<section>
+  <ul class="steps">
+    <li>
+      <a><em>Étape 1</em><span><br>Déposez vos pistes à mixer/masteriser avec instructions si besoin</span></a>
+    </li>
+    <li>
+      <a><em>Étape 2</em><span><br>Notre équipe receptionne vos fichiers et effectue le travail</span></a>
+    </li>
+    <li class="current">
+      <a><em>Étape 3</em><span><br>Recevez vos pistes, si elles ne vous conviennent pas renvoyez les avec vos instructions</span></a>
+    </li>
+  </ul>           
+</section>
+
+
+<div class="border">Nos abonnements</div>
+           
+
+  <div class="container">
+    <div class="top">
+      <div class="toggle-btn">
+        <span style="margin: 0.8em;" class="but">Annuellement</span>
+        <label class="switch">
+          <input type="checkbox" id="checbox" onclick="check()" ; />
+          <span class="slider round"></span>
+        </label>
+        <span style="margin: 0.8em;" class="but">Mensuellement</span></div>
+    </div>
+
+    <div class="package-container">
+      <div class="packages">
+        <h2 class="border">Basique</h2>
+        <h2 class="text1">&euro;19.99</h2>
+        <h2 class="text2">&euro;199.99</h2>
+        <ul class="list">
+          <li class="first">Sound tag sur vos pistes</li>
+          <li>30 pistes/mois</li>
+          <li>Plugins pro utilisés </li>
+          <li>SAV 24/24 7/7</li>
+        </ul>
+        <a href="#" class="button button1">Choisir cette formule</a>
+      </div>
+      <div class="packages">
+        <h2 class="border">Professionnel</h2>
+        <h2 class="text1">&euro;29.99</h2>
+        <h2 class="text2">&euro;299.99</h2>
+        <ul class="list">
+          <li class="first">Pas de sound tag</li>
+          <li>70 pistes/mois</li>
+          <li>Plugins pro utilisés</li>
+          <li>SAV 24/24 7/7</li>
+        </ul>
+        <a href="#" class="button button2">Choisir cette formule</a>
+      </div>
+      <div class="packages">
+        <h2 class="border">Illimité</h2>
+        <h2 class="text1">&euro;59.99</h2>
+        <h2 class="text2">&euro;599.99</h2>
+        <ul class="list">
+          <li class="first">Pas de sound tag</li>
+          <li>Pistes illimitées</li>
+          <li>Machines utilisées</li>
+          <li>SAV 24/24 7/7</li>
+        </ul>
+        <a href="#" class="button button3">Choisir cette formule</a>
+      </div>
+    </div>
+  </div>
+<script>
+function check() {
+  var checkBox = document.getElementById("checbox");
+  var text1 = document.getElementsByClassName("text1");
+  var text2 = document.getElementsByClassName("text2");
+
+  for (var i = 0; i < text1.length; i++) {
+    if (checkBox.checked == true) {
+      text1[i].style.display = "block";
+      text2[i].style.display = "none";
+    } else if (checkBox.checked == false) {
+      text1[i].style.display = "none";
+      text2[i].style.display = "block";
+    }
+  }
+}
+check();                  
+                                    
+</script>
+
+        
+    
+  <div class="card_category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/oui.png)">
+  "34Record m'a permis d'obtenir un rendu professionnel pour mon premier album"
+  </div>
+
+          
+
+  <div class="border">Exemple avant/après</div>        
+           
+                  <center class="container flexbox">
+<audio controls id="div2">
+  <source src="assets/backsound.mp3"  type="audio/mp3">
+</audio> 
+
+<div>
+  <div id="arrowAnim">
+  <div class="arrowSliding">
+    <div class="arrow"></div>
+  </div>
+  <div class="arrowSliding delay1">
+    <div class="arrow"></div>
+  </div>
+  <div class="arrowSliding delay2">
+    <div class="arrow"></div>
+  </div>
+  <div class="arrowSliding delay3">
+    <div class="arrow"></div>
+  </div>
+</div>
+</div>
+
+<audio controls id="div3">
+  <source src="assets/backsound.mp3"  type="audio/mp3">
+</audio> 
+                   
+</center>
+</div>
+
+ 
+  <div class="border"></div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="footer">
+    <div class="footer-links">
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+@import url(component/ui_1.css);
+@import url(component/ui_2.css);
+@import url(component/ui_3.css);
+@import url(component/ui_4.css);
+@import url(component/ui_5.css);
+@import url(component/ui_6.css);
+@import url(component/ui_7.css);
+@import url(component/ui_8.css);
+@import url(component/ui_footer.css);
+@import url(component/UI_caroussel.css);
+
+.border {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color:white;
+  }
+
+body{
+  background-color: rgb(30, 30, 30);
+}
+
+@media (max-device-width: 540px){
+  .border{
+    font-size: 30px;
+    margin: 15px;
+  }
+}
